@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Search-In-React-Website/static/css/main.1cd63ed8.css",
+    "main.js": "/Search-In-React-Website/static/js/main.abf10a37.js",
+    "static/media/gif5.gif": "/Search-In-React-Website/static/media/gif5.6fb55f4749bccbbfb0a7.gif",
+    "static/media/gif4.gif": "/Search-In-React-Website/static/media/gif4.1ba4f2af93976aae56ba.gif",
+    "static/media/gif3.svg": "/Search-In-React-Website/static/media/gif3.bc80ed98cf195d5ac3549c04a1a3d69c.svg",
+    "static/media/green.svg": "/Search-In-React-Website/static/media/green.f4a4991144d9f2e27f03a43164fe7edd.svg",
+    "static/media/gif1.gif": "/Search-In-React-Website/static/media/gif1.2421b22d4dc1aaed1ce7.gif",
+    "static/media/search_icon.webp": "/Search-In-React-Website/static/media/search_icon.0cffc78ea84625c06588.webp",
+    "static/media/search.png": "/Search-In-React-Website/static/media/search.f29784bcc9cbc031f83f.png",
+    "index.html": "/Search-In-React-Website/index.html",
+    "main.1cd63ed8.css.map": "/Search-In-React-Website/static/css/main.1cd63ed8.css.map",
+    "main.abf10a37.js.map": "/Search-In-React-Website/static/js/main.abf10a37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cd63ed8.css",
+    "static/js/main.abf10a37.js"
+  ]
+}
