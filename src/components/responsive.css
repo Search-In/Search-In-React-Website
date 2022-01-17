@@ -1,0 +1,259 @@
+@media(max-width:1024px) {
+    .heading .head {
+        /* background-color: rebeccapurple; */
+        display: block !important;
+        align-items: center;
+    }
+
+    .head .left,
+    .head .right {
+        margin: 0px auto !important;
+        width: 100% !important;
+    }
+
+    .head .left {
+        padding: 0 10% !important;
+    }
+
+    .head .right {
+        width: 40vw !important;
+        margin: 60px 10% !important;
+        align-items: center !important;
+    }
+
+    iframe {
+        width: 80vw !important;
+        height: 35vh !important;
+    }
+
+    /* ........ */
+
+    .photo {
+        margin-top: 60px;
+        width: 68% !important;
+        margin-left: 15% !important;
+    }
+
+    .right .photo2 {
+        width: 80% !important;
+    }
+
+    .photo3 {
+        width: 79% !important;
+    }
+
+    .photo4 {
+        width: 90% !important;
+    }
+
+
+
+
+
+    .feat img {
+        width: 100vw;
+    }
+
+
+    .more .fivefeat {
+        padding: 10px;
+    }
+
+    .container {
+        width: 1200%;
+    }
+
+
+
+    .aboutus .about {
+        margin-top: 50px;
+    }
+
+    .aboutus .right {
+        padding-right: 50px !important;
+    }
+
+
+
+}
+
+
+/* --------------FOR MOBLIE--------------- */
+
+@media (max-width:576px) {
+    .hamberger {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        z-index: 11;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        display: none;
+    }
+
+    .hambergerlogo {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 11;
+        background: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        display: none;
+    }
+
+    .hambergerlogo .logo {
+
+        margin-top: 10px;
+        margin-bottom: -8px;
+    }
+
+    .hambergerlogo .searchlogo {
+
+        margin-top: 10px;
+    }
+
+    .times {
+        position: fixed;
+        top: 30px;
+        right: 20px;
+        border: none;
+        background: none;
+        outline: none;
+        cursor: pointer;
+        width: 30px;
+    }
+
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1001;
+        background-color: white;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 2rem;
+        padding-top: 5rem;
+        transform: translateX(-100%);
+        transition: all .5s ease-in-out;
+        /* border: 2px solid red; */
+    }
+
+    .open {
+        transform: translateX(0);
+    }
+
+    .mobile-nav ul {
+        list-style-type: none;
+    }
+
+    .mobile-nav ul li a {
+        color: var(--secondary);
+        text-decoration: none;
+        font-size: 2rem;
+    }
+
+    .times img {
+        width: 30px;
+    }
+
+    .hamberger img {
+        width: 30px;
+        margin-top: 10px;
+    }
+
+    .mobnav {
+        display: block;
+        /* background-color: red; */
+        height: 60px;
+
+    }
+
+    .hamberger {
+        display: block !important;
+    }
+
+    .hambergerlogo {
+        display: block !important;
+    }
+
+    .nav {
+        display: none;
+    }
+
+
+    .heading .head {
+        /* background-color: rebeccapurple; */
+        display: block;
+        align-items: center;
+        margin-top: 0px !important;
+        padding-top: 20px;
+    }
+
+    .head .left .heading {
+        font-size: 2rem;
+    }
+
+    .left .buttons {
+        display: block;
+        padding-top: 10px;
+        margin-left: 20%;
+        /* grid-template-columns: auto auto; */
+    }
+
+    .left .buttons .btn1 {
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    .left .buttons .btn2 {
+        width: 200px;
+    }
+
+    iframe {
+        width: 80vw;
+        height: 200px;
+        margin-right: 0px !important;
+    }
+
+    .fet1 {
+        display: none !important;
+    }
+
+    .mobilefet {
+        display: block !important;
+        text-align: center;
+        align-items: center;
+    }
+
+
+    .fivefeat {
+        display: block !important;
+    }
+
+    .fivefeat .card img {
+        display: none;
+    }
+
+    .mobilecard .card img {
+        display: block !important;
+        margin: 40px 10px;
+    }
+
+    .aboutus {
+        display: block !important;
+        text-align: center;
+        padding: 20px !important;
+    }
+
+    .aboutus .right {
+        padding: 0 !important;
+        font-size: 1.5rem !important;
+
+    }
+
+}

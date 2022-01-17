@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+.keyfeature{
+    text-align: center;
+    margin: 100px auto 50px auto;
+    font-size: 3rem;
+    font-weight: 600;
+    text-decoration: underline;
+    font: 'Roboto';
+}
+
+.mobilefet{
+    display: none;
+}
+.mobilefet .mobphoto{
+    width: 80%;
+    border-radius: 5%;
+}
+.mobilefet .text{
+    margin: 30px 40px;
+}
+.mobilefet .text .head{
+    font-size: 2rem;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.fet1{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 50px;
+}
+
+.fet1 .left{
+    width: 50vw;    
+}
+
+.fet1 .right{
+    width: 50vw;
+    /* background-color: pink; */
+    padding-right: 15%;
+    
+}
+
+.photo{
+    width: 55%;
+    border-radius: 20px;
+    margin-left: 30%;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+}
+.text .head{
+    margin: 10% 10% 10px 1%;
+    padding-left: 10%;
+    font-size: 3rem;
+    text-align: center;
+    /* background-color: powderblue; */
+}
+.text .belowtext{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    line-height: 150%;
+}
+.text .belowtext span{
+    color: #e2640f;
+}
+
+
+.fet1 .left .text2{
+    /* background-color: red; */
+    padding-left: 14%;
+}
+.text2 .head{
+    padding-left: 0% !important;
+}
+
+.right .photo2{
+    width: 63%;
+}
+
+.photo3{
+    width: 65%;
+}
+.photo4{
+    width: 70% !important;
+}

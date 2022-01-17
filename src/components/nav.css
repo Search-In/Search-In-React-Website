@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.mobnav{
+    display: none;
+}
+
+
+
+.nav{
+    /* background-color: red; */
+    height: 60px;
+    display: flex;
+    /* padding: 20px 20px; */
+    text-align: center;
+    padding-bottom: 50px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.nav .left{
+    margin-left: 20px;
+    height: 50px;
+    margin-bottom: 0 !important;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+.nav .right{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+.searchlogo{
+    height: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.nav .right .about{
+    font-size: 20px;
+    text-align: center;
+    margin: 3px 0;
+    letter-spacing: 1px;
+    margin-right: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    border: black 1px white;
+    /* margin: 5px 14px; */
+    padding-bottom: 1px;
+    padding-top: 15px;
+   
+}
+
+.nav .right .join{
+    font-size: 20px;
+    text-align: center;
+    /* margin-right: 40px; */
+    font-weight: 600;
+    background-color:#ffba3c;
+    border: #ffba3c solid 2px;
+    padding: 5px 14px;
+    border-radius: 40px;
+    margin: 10px;
+    cursor: pointer;
+}
+.nav .right .about:hover{
+    border-bottom: solid 1px red;
+}
+.nav .right .join:hover{
+    background-color: white;
+}
