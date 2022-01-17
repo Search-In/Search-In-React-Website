@@ -81,111 +81,40 @@
 /* --------------FOR MOBLIE--------------- */
 
 @media (max-width:576px) {
-    .hamberger {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        z-index: 11;
-        background: none;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        display: none;
-    }
-
-    .hambergerlogo {
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        z-index: 11;
-        background: none;
-        border: none;
-        outline: none;
-        cursor: pointer;
-        display: none;
-    }
-
-    .hambergerlogo .logo {
-
-        margin-top: 10px;
-        margin-bottom: -8px;
-    }
-
-    .hambergerlogo .searchlogo {
-
-        margin-top: 10px;
-    }
-
-    .times {
-        position: fixed;
-        top: 30px;
-        right: 20px;
-        border: none;
-        background: none;
-        outline: none;
-        cursor: pointer;
-        width: 30px;
-    }
-
-    .mobile-nav {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: 1001;
-        background-color: white;
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        padding: 2rem;
-        padding-top: 5rem;
-        transform: translateX(-100%);
-        transition: all .5s ease-in-out;
-        /* border: 2px solid red; */
-    }
-
-    .open {
-        transform: translateX(0);
-    }
-
-    .mobile-nav ul {
-        list-style-type: none;
-    }
-
-    .mobile-nav ul li a {
-        color: var(--secondary);
-        text-decoration: none;
-        font-size: 2rem;
-    }
-
-    .times img {
-        width: 30px;
-    }
-
-    .hamberger img {
-        width: 30px;
-        margin-top: 10px;
-    }
-
-    .mobnav {
+    .bar {
         display: block;
-        /* background-color: red; */
-        height: 60px;
-
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #101010;
+    }
+    .hamburger {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
     }
 
-    .hamberger {
-        display: block !important;
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
     }
 
-    .hambergerlogo {
-        display: block !important;
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
-
-    .nav {
+    .nav .left{
+        margin-left: 0px;
+    }
+    .nav .right{
         display: none;
     }
-
-
+    .head .left .heading {
+        font-size: 1.6rem !important;
+    }
     .heading .head {
         /* background-color: rebeccapurple; */
         display: block;
@@ -199,9 +128,9 @@
     }
 
     .left .buttons {
-        display: block;
+        display: block !important;
         padding-top: 10px;
-        margin-left: 20%;
+        text-align: -webkit-center;
         /* grid-template-columns: auto auto; */
     }
 
@@ -255,5 +184,10 @@
         font-size: 1.5rem !important;
 
     }
-
+    .mob_nav{
+        display: none;
+    }
+    .mob_nav.active {
+        display: grid !important;
+    }
 }

@@ -48,7 +48,7 @@
     cursor: pointer;
 }
 
-.nav .right .about{
+.nav .right .about , .mob_nav .about{
     font-size: 20px;
     text-align: center;
     margin: 3px 0;
@@ -63,7 +63,7 @@
    
 }
 
-.nav .right .join{
+.nav .right .join , .mob_nav .join{
     font-size: 20px;
     text-align: center;
     /* margin-right: 40px; */
