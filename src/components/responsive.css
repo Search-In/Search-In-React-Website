@@ -184,9 +184,6 @@
         font-size: 1.5rem !important;
 
     }
-    .mob_nav{
-        display: none;
-    }
     .mob_nav.active {
         display: grid !important;
     }
