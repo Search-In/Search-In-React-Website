@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vujahday+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+.aboutus{
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: #3c3453; */
+}
+
+
+.about1{
+    margin-top: 100px;
+    color: var(--pure);
+    font-size: 3.2rem;
+    font-weight: 700;
+    text-align: center;
+}
+.aboutus .left{
+    text-align: center;
+}
+.aboutus .about{
+    text-align: center;
+    color: var(--dark)                                                                            ;
+    /* text-decoration: underline; */
+    font-size: 2rem;
+}
+
+.aboutus .left .img1{
+    width: 30%;
+    text-align: center;
+    background-color: 3e2093;
+}
+
+.aboutus .right{
+    text-align: left;
+    font-size: 1.5rem;
+    padding-top: 20px;
+    padding-right: 100px;
+    color: var(--pure);
+    padding-bottom: 50px;
+    /* font-family: 'EB Garamond', serif; */
+}

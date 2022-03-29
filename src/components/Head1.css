@@ -1,0 +1,33 @@
+
+.head .right iframe{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 120px;
+}
+
+.head .btn{
+    transition: all .5s ease;
+}
+
+.head .btn:hover{
+    background-color: var(--primary);
+    color: var(--dark) !important;
+}
+.head .left{
+    margin-top: 50px;
+}
+
+.head .left .heading{
+    font-size: 4.4rem;
+}
+
+.logos{
+    /* background-color: red; */
+    margin-top: 50px;
+    
+}
+
+.logos img{
+    width: 150px;
+    color: wheat;  
+}
